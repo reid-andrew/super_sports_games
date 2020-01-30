@@ -1,9 +1,9 @@
 class Event
-  attr_reader :event_name, :participant_ages
+  attr_reader :name, :ages
 
   def initialize(event_name, participant_ages)
-    @event_name = event_name
-    @participant_ages = participant_ages
+    @name = event_name
+    @ages = participant_ages
   end
 
 end
