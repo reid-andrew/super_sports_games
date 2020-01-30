@@ -25,4 +25,9 @@ class Event
     # require "pry"; binding.pry
   end
 
+  def standard_deviation_age
+    sd = Standard_Deviation.new(@ages)
+    sd.standard_deviation
+  end
+
 end

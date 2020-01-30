@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/event'
+require './lib/standard_deviation'
 
 class EventTest < Minitest::Test
 
@@ -40,6 +41,6 @@ class EventTest < Minitest::Test
 
   def test_it_returns_standard_deviation
     # skip
-    assert_equal 18.59, @event.std_dev
+    assert_equal 18.59, @event.standard_deviation_age
   end
 end
