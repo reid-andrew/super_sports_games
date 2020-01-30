@@ -14,4 +14,13 @@ class Event
     @ages.min
   end
 
+  def average_age
+    total_age = 0
+    @ages.each do |age|
+      total_age += age
+    end
+
+    total_age/@ages.count
+  end
+
 end
