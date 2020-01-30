@@ -34,7 +34,12 @@ class EventTest < Minitest::Test
   end
 
   def test_it_returns_avg_age
-    # skip
+    skip
     assert_equal 36.00, @event.average_age
+  end
+
+  def test_it_returns_standard_deviation
+    # skip
+    assert_equal 18.59, @event.std_dev
   end
 end
