@@ -20,7 +20,9 @@ class Event
       total_age += age
     end
 
-    total_age/@ages.count
+    avg_age = total_age.to_f/@ages.count
+    avg_age = avg_age.round(2)
+    # require "pry"; binding.pry
   end
 
 end
