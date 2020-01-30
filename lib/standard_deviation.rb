@@ -1,5 +1,3 @@
-# ages = [24, 30, 18, 20, 41]
-
 class Standard_Deviation
   def initialize(input)
     @input = input
