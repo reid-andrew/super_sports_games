@@ -29,7 +29,12 @@ class EventTest < Minitest::Test
   end
 
   def test_it_returns_min_age
-    # skip
+    skip
     assert_equal 18, @event.min_age
+  end
+
+  def test_it_returns_avg_age
+    # skip
+    assert_equal 36, @event.average_age
   end
 end
