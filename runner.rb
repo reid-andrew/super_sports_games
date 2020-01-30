@@ -7,7 +7,6 @@ puts "\n" + "Enter the year of the games"
 print ">"
 input_year = gets.chomp
 new_game = Games.new(input_year)
-# event_list = []
 
 puts "\n" + "How many events were contested in #{input_year}?"
 print ">"
@@ -33,7 +32,6 @@ while counter < event_count
 
   new_event = Event.new(input_event, event_ages)
   new_game.add_event(new_event)
-  # event_list << input_event
   counter += 1
 end
 
