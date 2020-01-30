@@ -24,7 +24,7 @@ class EventTest < Minitest::Test
   end
 
   def test_it_returns_max_age
-    # skip
+    skip
     assert_equal 68, @event.max_age
   end
 
